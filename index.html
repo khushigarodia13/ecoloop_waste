@@ -5,26 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Walmart Clone – Desktop</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="site-header">
     <div class="header-top">
-      <div class="logo"><img src="images/walmart-logo.svg" alt="Walmart Logo"></div>
-      <form class="search-form">
-        <input type="text" placeholder="Search everything at Walmart and in store" />
-        <button type="submit" class="search-btn"><img src="https://www.bing.com/images/search?view=detailV2&ccid=t1Npyhai&id=3F0B616E91C254857579A7D2EA1F19AF8EE76023&thid=OIP.t1NpyhaiL4gouIOOsF6z0AHaHa&mediaurl=https%3a%2f%2fstatic.vecteezy.com%2fsystem%2fresources%2fpreviews%2f015%2f337%2f677%2foriginal%2ftransparent-search-icon-free-png.png&exph=1920&expw=1920&q=white+search+icon&simid=608016810192487587&FORM=IRPRST&ck=11C1E14AC90F38BF0FE8BBD275F5A5B9&selectedIndex=63&itb=1" alt="Search"></button>
-      </form>
+      <div class="logo">
+        <img src="images/walmart-logo.svg" alt="Walmart Logo" />
+      </div>
+      <div class="header-search-area">
+        <div class="location-box">
+          <img src="images/location-icon.svg" alt="Location Icon" />
+          <span>Sacramento, 95829</span>
+        </div>
+        <form class="search-form">
+          <input type="text" placeholder="Search everything at Walmart online and in store" />
+          <button type="submit">
+            <img src="images/search-icon.svg" alt="Search" />
+          </button>
+        </form>
+      </div>
       <nav class="header-nav">
         <a href="#">Reorder</a>
         <a href="#">Sign In</a>
-        <a href="#">Reorder</a>
         <a href="#">Cart</a>
       </nav>
     </div>
+
     <nav class="main-nav">
       <ul>
-        <li><select class="departments-main-nav"><option>Departments</option></select></li>
-        <li><select class="services-main-nav"><option>Services</option></select></l>
+        <li><select><option>Departments</option></select></li>
+        <li><select><option>Services</option></select></li>
         <li>|</li>
         <li><a href="#">Get it fast</a></li>
         <li><a href="#">New arrivals</a></li>
@@ -44,14 +55,14 @@
 
   <main>
     <section class="hero">
-      <img src="hero.img.png" alt="Main Hero" />
+      <img src="images/hero.jpg" alt="Main Hero" />
     </section>
 
     <section class="promo-grid">
-      <img src="img1.png" alt="">
-      <img src="img1.png" alt="">
-      <img src="img1.png" alt="">
-      <img src="img1.png" alt="">
+      <img src="images/promo1.jpg" alt="Promo 1">
+      <img src="images/promo2.jpg" alt="Promo 2">
+      <img src="images/promo3.jpg" alt="Promo 3">
+      <img src="images/promo4.jpg" alt="Promo 4">
     </section>
 
     <section class="category-cards">
